@@ -19,7 +19,7 @@ logger = logging.getLogger("voice.action_router")
 REALTIME_HOME = Path(__file__).resolve().parent.parent
 SIGNAL_DIR = Path.home() / ".deepdolphin"
 SIGNAL_FILE = SIGNAL_DIR / "signal.json"
-MEMORY_FILE = RALPH_HOME / "memory" / "deepdolphin_missions.json"
+MEMORY_FILE = Path.home() / "Ralph-Neon" / "memory" / "deepdolphin_missions.json"
 LLM_COMMAND_FILE = REALTIME_HOME / "llm_commands.jsonl"
 
 

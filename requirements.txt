@@ -1,0 +1,18 @@
+# Realtime -- OpenAI Realtime API voice transcription
+# Install: pip install -r requirements.txt
+
+# Audio capture and playback
+sounddevice==0.4.6
+soundfile==0.12.1
+numpy>=1.24.0
+
+# OpenAI Realtime API + Whisper
+openai>=1.40.0
+websockets>=12.0
+
+# HTTP requests (speak.py ElevenLabs TTS)
+requests>=2.31.0
+
+# Optional: Milvus vector archive
+# pymilvus>=2.3.0
+# sentence-transformers>=2.2.0
